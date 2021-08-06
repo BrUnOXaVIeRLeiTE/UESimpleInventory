@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"EngineVersion": "4.26.0",
+	"FriendlyName": "Simple Serializable Inventory",
+	"Category": "SYNAPTECH",
+	"CreatedBy": "(C) Bruno Xavier Leite",
+	"CreatedByURL": "https://brunoxavierleite.wordpress.com",
+	"Description": "An Basic Inventory System for Games, based on C++ Components, ready to use with plugins like 'Savior'.",
+	"MarketplaceURL": "",
+	"DocsURL": "",
+	"SupportURL": "mailto:bruno_xavier_@msn.com",
+	"CanContainContent": true,
+	"EnabledByDefault": true,
+	"IsBetaVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Type": "Runtime",
+			"Name": "SimpleInventory",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Savior",
+			"Enabled": true
+		}
+	]
+}
