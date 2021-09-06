@@ -132,7 +132,7 @@ void USimpleInventoryComponent::PostInitProperties() {
 	Super::PostInitProperties();
 	//
 	if (!HasAnyFlags(RF_ClassDefaultObject|RF_ArchetypeObject)) {
-		SGUID = USavior3::MakeObjectGUID(this,EGuidGeneratorMode::ResolvedNameToGUID);
+		SGUID = USavior3::MakeComponentGUID(this,EGuidGeneratorMode::ResolvedNameToGUID);
 	}///
 }
 
